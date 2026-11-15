@@ -15,7 +15,3 @@ Vue 3 (Composition API) + Vite.
 
 ## Novo projeto
 Adicione um objeto à lista `projects` em `content.js`. Para usar imagem, coloque o arquivo em `public/imagens/` e informe `image: '/imagens/arquivo.png'`.
-
-## Publicar
-Envie a pasta `dist/` para Netlify, Vercel ou GitHub Pages.
-# portfolio
