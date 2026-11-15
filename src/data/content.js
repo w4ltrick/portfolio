@@ -33,18 +33,19 @@ export const skills = [
 // Opcional: image: '/imagens/meu-projeto.png' (arquivo em public/imagens).
 export const projects = [
   {
+    name: 'VOLUN',
+    initials: 'VL',
+    desc: 'Loja virtual de camisetas com identidade visual própria, catálogo de produtos e experiência de compra online.',
+    tech: ['E-commerce', 'Vitrine de produtos'],
+    demo: 'https://volun-lac.vercel.app/'
+  },
+  {
     name: 'FoodTruck',
     initials: 'FT',
     desc: 'Aplicativo de pedidos com validação via QR Code, desenvolvido na faculdade, onde atuei em Garantia de Qualidade (QA). A demonstração mostra apenas o front-end.',
     tech: ['Svelte', 'Express.js', 'SQLite', 'Tailwind'],
     github: 'https://github.com/w4ltrick',
     demo: 'https://foodtruck-pa.netlify.app/'
-  },
-  {
-    name: 'Próximo projeto',
-    empty: true,
-    desc: 'Novos projetos aparecerão aqui. Adicione um item à lista projects para publicá-lo.',
-    tech: []
   }
 ]
 
